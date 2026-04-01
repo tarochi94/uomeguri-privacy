@@ -1,82 +1,175 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>プライバシーポリシー - うおめぐり</title>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
-    background: #EBF5FC;
-    color: #0A3A6B;
-    line-height: 1.8;
-    padding: 24px 16px;
-  }
-  .container {
-    max-width: 640px;
-    margin: 0 auto;
-    background: #fff;
-    border-radius: 16px;
-    padding: 32px 24px;
-  }
-  h1 {
-    font-size: 1.4rem;
-    margin-bottom: 8px;
-  }
-  .app-name {
-    font-size: 0.85rem;
-    color: #4A7FA8;
-    margin-bottom: 24px;
-  }
-  h2 {
-    font-size: 1.05rem;
-    margin-top: 28px;
-    margin-bottom: 8px;
-    padding-bottom: 4px;
-    border-bottom: 2px solid #C8E6F5;
-  }
-  p, li {
-    font-size: 0.9rem;
-    margin-bottom: 8px;
-  }
-  ul {
-    padding-left: 20px;
-    margin-bottom: 12px;
-  }
-  .date {
-    font-size: 0.8rem;
-    color: #4A7FA8;
-    text-align: right;
-    margin-top: 32px;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>うおめぐり - サポート & プライバシーポリシー</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      background: #f0f8ff;
+      color: #1a1a2e;
+      line-height: 1.7;
+    }
+    header {
+      background: #0A3A6B;
+      color: white;
+      text-align: center;
+      padding: 3rem 1.5rem 2rem;
+    }
+    header .fish { font-size: 3rem; margin-bottom: 0.5rem; }
+    header h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.25rem; }
+    header p { font-size: 1rem; opacity: 0.85; }
+    nav {
+      background: #1A6DB5;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.8rem 2rem;
+      font-size: 0.95rem;
+      border-bottom: 3px solid transparent;
+    }
+    nav a:hover { border-bottom-color: #C8E6F5; }
+    .container {
+      max-width: 800px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+    }
+    section {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border: 1px solid #d0e8f8;
+    }
+    section h2 {
+      font-size: 1.3rem;
+      color: #0A3A6B;
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 2px solid #EBF5FC;
+    }
+    section h3 {
+      font-size: 1rem;
+      color: #1A6DB5;
+      margin: 1.2rem 0 0.5rem;
+    }
+    section p { margin-bottom: 0.8rem; color: #333; font-size: 0.95rem; }
+    section ul { padding-left: 1.4rem; margin-bottom: 0.8rem; }
+    section ul li { margin-bottom: 0.4rem; font-size: 0.95rem; color: #333; }
+    .contact-box {
+      background: #EBF5FC;
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      margin-top: 1rem;
+    }
+    .contact-box a { color: #0A3A6B; font-weight: 600; }
+    .badge {
+      display: inline-block;
+      background: #0A3A6B;
+      color: white;
+      font-size: 0.75rem;
+      padding: 2px 10px;
+      border-radius: 20px;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      font-size: 0.85rem;
+    }
+  </style>
 </head>
 <body>
+
+<header>
+  <div class="fish">🐟</div>
+  <h1>うおめぐり</h1>
+  <p>全国水族館制覇スタンプ帳</p>
+</header>
+
+<nav>
+  <a href="#support">サポート</a>
+  <a href="#faq">よくある質問</a>
+  <a href="#privacy">プライバシーポリシー</a>
+</nav>
+
 <div class="container">
-  <h1>プライバシーポリシー</h1>
-  <p class="app-name">iOS アプリ「うおめぐり」</p>
 
-  <h2>1. 収集する情報</h2>
-  <ul>
-    <li><strong>位置情報</strong>: 現在地から近い水族館を探す機能で使用します。位置情報はアプリ利用中のみ取得し、外部サーバーへの送信は行いません。</li>
-    <li><strong>訪問記録・メモ</strong>: チェックイン時に記録する訪問日やメモは、お使いの端末内にのみ保存されます。外部への送信は一切行いません。</li>
-  </ul>
+  <section id="support">
+    <h2>サポート <span class="badge">お問い合わせ</span></h2>
+    <p>うおめぐりをご利用いただきありがとうございます。ご不明な点や問題が発生した場合は、下記のメールアドレスまでお気軽にお問い合わせください。</p>
+    <div class="contact-box">
+      <p>&#128231; お問い合わせ先メールアドレス</p>
+      <a href="mailto:ryotaro.apps&#64;gmail.com">ryotaro.apps&#64;gmail.com</a>
+      <p style="margin-top:0.6rem; font-size:0.85rem; color:#555;">通常2〜3営業日以内にご返信いたします。</p>
+    </div>
+    <h3>お問い合わせ時にご記載ください</h3>
+    <ul>
+      <li>ご使用のiOSバージョン</li>
+      <li>アプリのバージョン（設定画面から確認できます）</li>
+      <li>問題の詳細・発生状況</li>
+    </ul>
+  </section>
 
-  <h2>2. 収集しない情報</h2>
-  <p>本アプリでは、氏名・メールアドレス・電話番号など個人を特定できる情報は収集しません。また、利用状況の追跡やアクセス解析のためのデータ収集も行っていません。</p>
+  <section id="faq">
+    <h2>よくある質問</h2>
+    <h3>Q. チェックインしたデータはどこに保存されますか？</h3>
+    <p>チェックインデータはお使いのiPhone本体に保存されます。外部サーバーには送信されません。</p>
 
-  <h2>3. 第三者への情報提供</h2>
-  <p>本アプリではフィードバック機能にGoogleフォームを使用しています。フォームに入力された情報はGoogleのサービスを通じて送信されます。Googleのプライバシーポリシーについては<a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:#1A6DB5;">Google プライバシーポリシー</a>をご確認ください。</p>
-  <p>上記を除き、ユーザーの情報を第三者に提供することはありません。</p>
+    <h3>Q. 位置情報はなぜ必要ですか？</h3>
+    <p>「近くの水族館」機能を使用する際に、現在地から近い水族館を表示するために使用します。位置情報の利用は任意で、許可しなくても基本的なスタンプ機能はご利用いただけます。</p>
 
-  <h2>4. データの保存</h2>
-  <p>訪問記録はすべて端末のローカルストレージに保存されます。アプリを削除するとデータも削除されます。クラウド同期やバックアップの機能はありません。</p>
+    <h3>Q. データのバックアップはできますか？</h3>
+    <p>iCloudバックアップをオンにすることで、チェックインデータを含むアプリデータがバックアップされます。</p>
 
-  <h2>5. お問い合わせ</h2>
-  <p>本ポリシーに関するご質問やご意見は、アプリ内のフィードバック機能からご連絡ください。</p>
+    <h3>Q. 掲載されていない水族館がある場合は？</h3>
+    <p>上記メールアドレスにてご連絡ください。確認の上、順次追加を検討いたします。</p>
 
-  <p class="date">制定日: 2026年3月30日</p>
+    <h3>Q. アプリが正常に動作しない場合は？</h3>
+    <p>アプリを一度終了して再起動するか、iOSおよびアプリを最新バージョンにアップデートしてお試しください。改善しない場合はお問い合わせください。</p>
+  </section>
+
+  <section id="privacy">
+    <h2>プライバシーポリシー</h2>
+    <p>本プライバシーポリシーは、うおめぐり（以下「本アプリ」）における個人情報の取り扱いについて説明します。</p>
+
+    <h3>収集する情報</h3>
+    <ul>
+      <li><strong>位置情報：</strong>近くの水族館を表示する機能に使用します。ユーザーの許可がある場合のみ取得し、外部には送信しません。</li>
+      <li><strong>写真：</strong>チェックイン時に写真を添付する場合、端末内にのみ保存されます。</li>
+      <li><strong>チェックインデータ：</strong>訪問記録はすべて端末内に保存され、外部サーバーには送信されません。</li>
+    </ul>
+
+    <h3>第三者への情報提供</h3>
+    <p>本アプリは収集した個人情報を第三者に提供・販売いたしません。</p>
+
+    <h3>広告</h3>
+    <p>本アプリは広告を表示しません。</p>
+
+    <h3>お子様のプライバシー</h3>
+    <p>本アプリは13歳未満のお子様から意図的に個人情報を収集しません。</p>
+
+    <h3>プライバシーポリシーの変更</h3>
+    <p>本ポリシーは必要に応じて更新されることがあります。変更がある場合は、本ページにて通知します。</p>
+
+    <h3>お問い合わせ</h3>
+    <p>プライバシーに関するご質問は <a href="mailto:ryotaro.apps&#64;gmail.com" style="color:#1A6DB5;">ryotaro.apps&#64;gmail.com</a> までご連絡ください。</p>
+
+    <p style="margin-top:1.5rem; font-size:0.85rem; color:#888;">最終更新日：2026年4月1日</p>
+  </section>
+
 </div>
+
+<footer>
+  <p>&copy; 2026 うおめぐり. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
